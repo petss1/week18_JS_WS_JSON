@@ -1,0 +1,46 @@
+#cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr)); 
+    gap: 1vw;
+    padding-left: 5vw;
+    padding-top: 2vw;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1vw;
+    background-color: #d1c4c4; 
+    margin-left: 1vw;  
+}
+
+.hero img {
+    max-height: 150px;
+}
+
+.hero div {
+    margin-top: 1vw;
+    flex-grow: 1;
+}
+
+h1 {
+    text-align: center;  
+    padding-top: 2vw;
+}
+
+.rating {
+    display: flex;
+    gap: 1em;
+}
+
+.star {
+    height: 30px;
+    background-color: rgb(52, 107, 65);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.star.active {
+    background-color: rgb(93, 235, 95);
+}

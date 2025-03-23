@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/normalize.css">
+    <title>Task scheduler</title>
+</head>
+<body>
+    <form class="container">
+        <div>
+            <label for="taskInput"><b>Добавить задачу:</b>
+                <input type="text" id="taskInput" placeholder="Ваша задача" required autocomplete="off">
+                <button class="button" type="submit" id="addTaskBtn">Добавить</button> 
+            </label>
+        </div>
+        <div>
+            <h3>Список задач:</h3>
+                <ul class="ul" id="taskList"></ul>
+        </div>
+            <button class="button" type="button" id="clearListBtn" disabled>Очистить список</button>
+    <form>
+    <script src="assets/script/index.js"></script>
+</body>
+</html>
